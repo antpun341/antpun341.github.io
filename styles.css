@@ -2,14 +2,17 @@ body {
     background-color: black;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: inline
 }
 
 .basicContainer {
     border: 2px solid white;
     border-radius: 20px;
-    padding: 5px;
+    padding: 15px;
     background-color: darkred;
+    width: 33%;
+    vertical-align: top;
+    align-content: center;
+    box-sizing: border-box;
 }
 
 .basicContainer h2 {

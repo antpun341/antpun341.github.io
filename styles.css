@@ -4,15 +4,34 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.headerContainer {
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: auto;
+    background-color: darkred;
+    padding: 20px;
+}
+
+.pictureContainer {
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: auto;
+    background-image: url("kenzie.jpg");
+    background-attachment: auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 1000px;
+}
+
 .basicContainer {
     border: 2px solid white;
     border-radius: 20px;
-    padding: 15px;
+    padding: 10px;
     background-color: darkred;
-    width: 33%;
-    vertical-align: top;
-    align-content: center;
+    width: 32%;
     box-sizing: border-box;
+    margin: 5px;
+    display: inline-block;
 }
 
 .basicContainer h2 {

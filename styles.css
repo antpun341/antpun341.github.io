@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline
+}
+
+.basicContainer {
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: darkred;
+}
+
+.basicContainer h2 {
+    text-align: center;
+}
